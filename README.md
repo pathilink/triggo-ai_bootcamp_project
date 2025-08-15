@@ -36,7 +36,8 @@ Status columns include **To Do, In Progress, Done** to provide a transparent vie
 | Database | What it contains | Relevant issues |
 | --- | --- | --- |
 | [**SINASC (Sistema de Nascidos Vivos)**](https://datasus.saude.gov.br/nascidos-vivos-desde-1994) | Data on births, prematurity, birth weight, type of delivery | - Prematurity and associated factors (maternal age, region)<br>- Cesarean sections vs. natural births (evolution by state) |
-                                                       
+
+
 ## 🛠️ Technologies used
 
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
@@ -44,6 +45,13 @@ Status columns include **To Do, In Progress, Done** to provide a transparent vie
 ![dbt](https://img.shields.io/badge/-dbt-FF694B?style=flat&logo=dbt&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-blue?style=flat&logo=python&logoColor=yellow)
 ![PySpark](https://img.shields.io/badge/-PySpark-222?style=flat&logo=apache-spark&logoColor=E4682A)
+
+### Resources:
+- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
+- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
+- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
+- Find [dbt events](https://events.getdbt.com) near you
+- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
 
 
 ## 👩🏻‍💻 Author
