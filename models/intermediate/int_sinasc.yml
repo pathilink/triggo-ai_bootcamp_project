@@ -1,0 +1,24 @@
+# models/intermediate/int_sinasc.yml
+version: 2
+
+models:
+  - name: int_sinasc
+    description: "SINASC data processed and standardized, ready for aggregation and analysis."
+    columns:
+      - name: ID
+        description: "Unique pregnancy identifier (md5 of COUNTER, STATE, and YEAR)."
+        tests:
+          - not_null
+          - unique
+      - name: COUNTER
+        description: "Identification number of the record grouped by state and year."
+        tests:
+          - not_null
+      - name: STATE
+        description: "State of the registration."
+        tests:
+          - not_null
+      - name: YEAR
+        description: "Year of the registration."
+        tests:
+          - not_null

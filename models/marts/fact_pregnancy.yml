@@ -1,0 +1,12 @@
+# models/marts/fact_pregnancy.yml
+version: 2
+
+models:
+  - name: fact_pregnancy
+    description: "Table showing grain at gestation stage."
+    columns:
+      - name: PREGNANCY_ID
+        description: "Unique pregnancy identifier."
+        tests:
+          - not_null
+          - unique

@@ -1,0 +1,20 @@
+# models/staging/stg_sinasc.yml
+
+version: 2
+
+models:
+  - name: stg_sinasc
+    description: "Staging table with concatenated SINASC data from all regions and years."
+    columns:
+      - name: CONTADOR
+        description: "Identification number of the record grouped by state and year."
+        tests:
+          - not_null
+      - name: STATE
+        description: "State of the registration."
+        tests:
+          - not_null
+      - name: YEAR
+        description: "Year of the registration."
+        tests:
+          - not_null

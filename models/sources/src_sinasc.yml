@@ -1,0 +1,23 @@
+# models/sources/src_sinasc.yml
+version: 2
+
+sources:
+  - name: sinasc
+    catalog: databricks_aws
+    schema: triggo
+    tables:
+      - name: centro_oeste_2020_raw
+      - name: centro_oeste_2021_raw
+      - name: centro_oeste_2022_raw
+      - name: nordeste_2020_raw
+      - name: nordeste_2021_raw
+      - name: nordeste_2022_raw
+      - name: norte_2020_raw
+      - name: norte_2021_raw
+      - name: norte_2022_raw
+      - name: sudeste_2020_raw
+      - name: sudeste_2021_raw
+      - name: sudeste_2022_raw
+      - name: sul_2020_raw
+      - name: sul_2021_raw
+      - name: sul_2022_raw

@@ -1,0 +1,12 @@
+# models/marts/dim_newborn.yml
+version: 2
+
+models:
+  - name: dim_newborn
+    description: "Dimension with data from the newborn."
+    columns:
+      - name: NEWBORN_ID
+        description: "Unique pregnancy identifier."
+        tests:
+          - not_null
+          - unique
